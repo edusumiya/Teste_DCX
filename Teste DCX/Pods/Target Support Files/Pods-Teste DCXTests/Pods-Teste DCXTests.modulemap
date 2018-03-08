@@ -1,0 +1,6 @@
+framework module Pods_Teste_DCXTests {
+  umbrella header "Pods-Teste DCXTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
