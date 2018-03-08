@@ -8,6 +8,8 @@ target 'Teste DCX' do
   # Pods for Teste DCX
 
 pod "JSONParserSwift"
+pod 'SwiftyJSON'
+pod 'PKHUD', '~> 5.0'
 
   target 'Teste DCXTests' do
     inherit! :search_paths

@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		894535E92050D7F7002FF2E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894535E82050D7F7002FF2E4 /* AppDelegate.swift */; };
-		894535EB2050D7F7002FF2E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894535EA2050D7F7002FF2E4 /* ViewController.swift */; };
+		894535EB2050D7F7002FF2E4 /* MoviesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894535EA2050D7F7002FF2E4 /* MoviesListViewController.swift */; };
 		894535EE2050D7F7002FF2E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894535EC2050D7F7002FF2E4 /* Main.storyboard */; };
 		894535F02050D7F7002FF2E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 894535EF2050D7F7002FF2E4 /* Assets.xcassets */; };
 		894535F32050D7F7002FF2E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 894535F12050D7F7002FF2E4 /* LaunchScreen.storyboard */; };
 		894535FE2050D7F9002FF2E4 /* Teste_DCXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894535FD2050D7F9002FF2E4 /* Teste_DCXTests.swift */; };
+		89AD3F2C2050DD34005ADD78 /* DiscoverMoviesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AD3F2B2050DD34005ADD78 /* DiscoverMoviesAPI.swift */; };
+		89AD3F302050DE15005ADD78 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AD3F2F2050DE15005ADD78 /* Constants.swift */; };
+		89AD3F322050E4A5005ADD78 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AD3F312050E4A5005ADD78 /* MovieModel.swift */; };
+		89AD3F342050E766005ADD78 /* MoviesBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AD3F332050E766005ADD78 /* MoviesBaseModel.swift */; };
+		89AD3F362050F45C005ADD78 /* MoviesListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AD3F352050F45C005ADD78 /* MoviesListPresenter.swift */; };
 		AA54DE56391065156559BC1F /* Pods_Teste_DCX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4C32260EE3FE0B785AD8E9 /* Pods_Teste_DCX.framework */; };
 		B335883C2394AFDB65D2F738 /* Pods_Teste_DCXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625DB3EFD4CFF643D4950D3C /* Pods_Teste_DCXTests.framework */; };
 /* End PBXBuildFile section */
@@ -33,7 +38,7 @@
 		625DB3EFD4CFF643D4950D3C /* Pods_Teste_DCXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Teste_DCXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		894535E52050D7F7002FF2E4 /* Teste DCX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teste DCX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		894535E82050D7F7002FF2E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		894535EA2050D7F7002FF2E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		894535EA2050D7F7002FF2E4 /* MoviesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListViewController.swift; sourceTree = "<group>"; };
 		894535ED2050D7F7002FF2E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		894535EF2050D7F7002FF2E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		894535F22050D7F7002FF2E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -41,6 +46,11 @@
 		894535F92050D7F9002FF2E4 /* Teste DCXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Teste DCXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		894535FD2050D7F9002FF2E4 /* Teste_DCXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teste_DCXTests.swift; sourceTree = "<group>"; };
 		894535FF2050D7F9002FF2E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89AD3F2B2050DD34005ADD78 /* DiscoverMoviesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverMoviesAPI.swift; sourceTree = "<group>"; };
+		89AD3F2F2050DE15005ADD78 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		89AD3F312050E4A5005ADD78 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		89AD3F332050E766005ADD78 /* MoviesBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesBaseModel.swift; sourceTree = "<group>"; };
+		89AD3F352050F45C005ADD78 /* MoviesListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListPresenter.swift; sourceTree = "<group>"; };
 		ACA4C66AE1CCA931F91A8D67 /* Pods-Teste DCXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste DCXTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Teste DCXTests/Pods-Teste DCXTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED9CBD337C9CB5F42AF39405 /* Pods-Teste DCXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste DCXTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Teste DCXTests/Pods-Teste DCXTests.release.xcconfig"; sourceTree = "<group>"; };
 		F010BE840224B61095AC56D5 /* Pods-Teste DCX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste DCX.release.xcconfig"; path = "Pods/Target Support Files/Pods-Teste DCX/Pods-Teste DCX.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,12 +108,13 @@
 		894535E72050D7F7002FF2E4 /* Teste DCX */ = {
 			isa = PBXGroup;
 			children = (
-				894535E82050D7F7002FF2E4 /* AppDelegate.swift */,
-				894535EA2050D7F7002FF2E4 /* ViewController.swift */,
-				894535EC2050D7F7002FF2E4 /* Main.storyboard */,
-				894535EF2050D7F7002FF2E4 /* Assets.xcassets */,
-				894535F12050D7F7002FF2E4 /* LaunchScreen.storyboard */,
-				894535F42050D7F7002FF2E4 /* Info.plist */,
+				89AD3F272050DBDA005ADD78 /* API */,
+				89AD3F292050DBF2005ADD78 /* Model */,
+				89AD3F282050DBE8005ADD78 /* Presenter */,
+				89AD3F372050F726005ADD78 /* Storyboards */,
+				89AD3F262050DBC2005ADD78 /* SupportingFiles */,
+				89AD3F2D2050DE02005ADD78 /* Utils */,
+				89AD3F2A2050DBFC005ADD78 /* ViewController */,
 			);
 			path = "Teste DCX";
 			sourceTree = "<group>";
@@ -115,6 +126,66 @@
 				894535FF2050D7F9002FF2E4 /* Info.plist */,
 			);
 			path = "Teste DCXTests";
+			sourceTree = "<group>";
+		};
+		89AD3F262050DBC2005ADD78 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				894535E82050D7F7002FF2E4 /* AppDelegate.swift */,
+				894535EF2050D7F7002FF2E4 /* Assets.xcassets */,
+				894535F42050D7F7002FF2E4 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		89AD3F272050DBDA005ADD78 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				89AD3F2B2050DD34005ADD78 /* DiscoverMoviesAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		89AD3F282050DBE8005ADD78 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				89AD3F352050F45C005ADD78 /* MoviesListPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		89AD3F292050DBF2005ADD78 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				89AD3F312050E4A5005ADD78 /* MovieModel.swift */,
+				89AD3F332050E766005ADD78 /* MoviesBaseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		89AD3F2A2050DBFC005ADD78 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				894535EA2050D7F7002FF2E4 /* MoviesListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		89AD3F2D2050DE02005ADD78 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				89AD3F2F2050DE15005ADD78 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		89AD3F372050F726005ADD78 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				894535EC2050D7F7002FF2E4 /* Main.storyboard */,
+				894535F12050D7F7002FF2E4 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		C70BD6FB51286864655DFE96 /* Pods */ = {
@@ -289,10 +360,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Teste DCX/Pods-Teste DCX-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/JSONParserSwift/JSONParserSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONParserSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -339,8 +414,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				894535EB2050D7F7002FF2E4 /* ViewController.swift in Sources */,
+				89AD3F2C2050DD34005ADD78 /* DiscoverMoviesAPI.swift in Sources */,
+				89AD3F342050E766005ADD78 /* MoviesBaseModel.swift in Sources */,
+				894535EB2050D7F7002FF2E4 /* MoviesListViewController.swift in Sources */,
+				89AD3F362050F45C005ADD78 /* MoviesListPresenter.swift in Sources */,
+				89AD3F322050E4A5005ADD78 /* MovieModel.swift in Sources */,
 				894535E92050D7F7002FF2E4 /* AppDelegate.swift in Sources */,
+				89AD3F302050DE15005ADD78 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,7 +575,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Teste DCX/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Teste DCX/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.sumiya.Teste-DCX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,7 +590,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Teste DCX/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Teste DCX/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.sumiya.Teste-DCX";
 				PRODUCT_NAME = "$(TARGET_NAME)";
