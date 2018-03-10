@@ -8,11 +8,12 @@
 
 import Foundation
 
-class MoviesListPresenter: NSObject {
+class MoviesListPresenter {
     
     weak private var viewMovies : MoviesListInterface?
     
-    override init() {
+    init() {
+        
     }
     
     func attachView(view:MoviesListInterface){
@@ -20,8 +21,8 @@ class MoviesListPresenter: NSObject {
     }
     
     func GetMovies(pageNumber : Int) {
-        DiscoverMoviesAPI.sharedInstance.GetMovies(numberOfPage: 1, onCompletion: { (movies) in
-            self.viewMovies?.LoadMovies(movies: movies.results!)
+        DiscoverMoviesAPI.sharedInstance.GetMovies(numberOfPage: pageNumber, onCompletion: { (movies) in
+            self.viewMovies?.LoadMovies(movies: movies)
         }) { (error) in
             self.viewMovies?.OnError(error: error)
         }

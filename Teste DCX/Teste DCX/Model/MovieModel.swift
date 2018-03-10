@@ -13,7 +13,7 @@ class MovieModel : ParsableModel {
     var vote_count : String?
     var id : NSNumber?
     var video : NSNumber?
-    var vote_average : String?
+    var vote_average : NSNumber?
     var title : String?
     var popularity : String?
     var poster_path : String?
